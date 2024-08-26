@@ -1,4 +1,4 @@
-const { client } = require("pg");
+const { Client } = require("pg");
 
 const client = new Client({
   user: "postgres",
@@ -11,8 +11,13 @@ const client = new Client({
 client.connect();
 
 async function viewDepartments() {
-  const res = await client.query("SELECT * FROM department");
-  console.table(res.rows);
+  try {
+    const res = await client.query("SELECT * FROM department");
+
+    console.table(res.rows);
+  } catch (err) {
+    console.log(err);
+  }
 }
 
 async function viewRoles() {
