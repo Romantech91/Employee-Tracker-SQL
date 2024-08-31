@@ -8,6 +8,7 @@ Employee Tracker SQL is a command-line application that allows users to manage a
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Video Walkthrough](#video-walkthrough)
 - [Database Schema](#database-schema)
 - [Features](#features)
 - [Contributing](#contributing)
@@ -67,6 +68,10 @@ Employee Tracker SQL is a command-line application that allows users to manage a
    ```
 
 2. Follow the prompts to perform various operations such as viewing departments, roles, and employees, adding new departments, roles, and employees, and updating employee roles.
+
+## Video Walkthrough
+
+[![Watch the video](https://drive.google.com/uc?export=view&id=1gT4E0oHU5GrO26KwT2kKr1ZOFmoo1elC)](https://drive.google.com/file/d/1gT4E0oHU5GrO26KwT2kKr1ZOFmoo1elC/view)
 
 ## Database Schema
 
